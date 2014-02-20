@@ -1,0 +1,20 @@
+// SpriteProduceStrategy.cpp: implementation of the SpriteProduceStrategy class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "SpriteProduceStrategy.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+SpriteProduceStrategy::SpriteProduceStrategy():
+timeSinceLastAddFish(0),timeSinceLastAddProp(0)
+{
+
+}
+
+SpriteProduceStrategy::~SpriteProduceStrategy()
+{
+
+}

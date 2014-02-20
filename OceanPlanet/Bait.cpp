@@ -1,0 +1,26 @@
+// Bait.cpp: implementation of the Bait class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "Bait.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+Bait::Bait()
+{
+	Amount = rand() % 20 + 10;
+	center.x = hge->Random_Int(150, SCREEN_WIDTH - 150);
+	center.y = hge->Random_Int(100, SCREEN_HEIGHT - 100);
+}
+
+Bait::~Bait()
+{
+	
+}
+
+hgeVector& Bait::GetCenter()
+{
+	return center;
+}
